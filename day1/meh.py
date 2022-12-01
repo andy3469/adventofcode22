@@ -1,7 +1,7 @@
 import numpy as np
 
 # Parse text
-with open('input', 'r') as f:
+with open('day1/input', 'r') as f:
     text = f.read()
     elf = []
     curr = []
