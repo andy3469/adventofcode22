@@ -36,8 +36,8 @@ with open('day15/input') as f:
             if calc_mahattan_distance(sx,sy,bx,by) >= calc_mahattan_distance(sx,sy,x,y):
                 x = sx + calc_mahattan_distance(sx,sy,bx,by) - abs(sy - y) + 1
         if x <= 4000000:
-            print(x,y)
             print(x * 4000000 + y)
+            break
 
     
 
